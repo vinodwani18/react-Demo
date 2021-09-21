@@ -1,0 +1,156 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.header {
+  background-color:#C81E1E;
+  color:white;
+  text-align:center;
+  padding:5px;
+}
+.nav {
+  line-height:30px;
+  background-color:#eeeeee;
+  height:300px;
+  width:100px;
+  float:left;
+  padding:5px;	      
+}
+.section {
+  padding:10px;	 	 
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 10px;
+}
+
+.backbtn {
+  position: absolute;
+  right: 20px;
+  color: white;
+  cursor: pointer;
+}
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.restdetails {
+  padding: 1rem 5rem;
+}
+
+.rowmargin{
+  margin-top: 20px;
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+.container {
+  position: relative;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  right: 20px;
+  top: 5px;
+  z-index: 1;
+  background-color: #407C0E;
+  color:white;
+  font-size: 20px;
+  cursor: pointer;
+}
+.rating{
+  font-size: 33px;
+}
+.name{
+  margin-bottom: -0.5rem;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+/* 
+@media only screen and (max-width: 600px){
+  .circle{
+    width: 400px;
+    height: 400px;
+    line-height: 400px;
+    border-radius: 50%;
+    background-color: olive;
+    text-align: center;
+  }
+  
+}
+
+@media screen and (min-width: 900px) {
+  .circle{
+    width: 400px;
+    height: 400px;
+    line-height: 400px;
+    border: 1px solid;
+    background-color: olive;
+    text-align: center;
+  }
+  
+} */
+
+div.circle{
+  width: 400px;
+  height: 400px;
+  line-height: 400px;
+  border: 1px solid;
+  background-color: olive;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px){
+div.circle{
+  width: 400px;
+  height: 400px;
+  line-height: 400px;
+  border-radius: 50%;
+  background-color: olive;
+  text-align: center;
+}
+
+}
+
+.content{
+  position: absolute;
+  border-bottom: 100%;
+
+}
